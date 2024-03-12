@@ -1,0 +1,87 @@
+/* Header section styling */
+header {
+    background-color: #0a0a33; /* Header background color */
+    color: white; /* Text color for header */
+    padding: 20px; /* Padding inside the header */
+    display: flex; /* Set up flexbox layout for the header */
+    justify-content: space-between; /* Distribute space between the logo and the nav */
+    align-items: center; /* Center items vertically */
+}
+
+/* Logo styling */
+.logo img {
+    width: 100px; /* Width of the logo image */
+    height: auto; /* Height is automatic to keep aspect ratio tried tweaking with this but it just looks bad */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none; /* This removes the default bullet points style */
+    margin: 0; /* Reset default margin for list */
+    padding: 0; /* Reset default padding for list */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-left: 20px; /* Margin between list items */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* No margin for the first item */
+}
+
+nav ul li a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main content area styling */
+.main-content {
+    display: grid; /* Set up grid layout */
+    grid-template-columns: 1fr 2fr; /* Two columns with 2:1 ratio */
+    flex-grow: 1; /* Allow the main content to grow to fill remaining space */
+}
+
+/* Left column: ReSpectacles section */
+.respectacles {
+    background-color: #12403D; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 50px; /* Padding inside the section */
+}
+
+/* Right column: Hero section */
+.hero {
+    background-color: #F7FFF7; /* Background color from the color palette */
+    color: #141100; /* Text color from the color palette */
+    padding: 50px; /* Padding inside the section */
+    display: flex; /* Set up flexbox layout */
+    flex-direction: column; /* Align children in a column */
+    justify-content: center; /* Center items vertically */
+}
+
+/* Button styling within the hero section */
+.btn {
+    background-color: #12403D; /* Background color from the color palette */
+    color: #fff; /* Text color set to white */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline from the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    display: inline-block; /* Display button as a block inline */
+}
+
+/* Contact details styling */
+.contact-details {
+    margin-top: 20px; /* Margin above contact details */
+}
+
+.contact-details a {
+    color: #141100; /* Text color for contact links */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 20px; /* Space between contact links */
+}
+
+/* Footer styling */
+footer {
+    background-color: #0A0A33; /* Background color for footer */
+    color: #fff; /* Text */ 
+}
